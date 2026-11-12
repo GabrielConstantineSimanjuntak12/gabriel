@@ -1,6 +1,6 @@
 # Tugas-1
 TUGAS 1 – Algoritma dan Pemrograman Dasar
-- NIM: 2615323009
+- NIM: 2615323045
 - Kelas: 1A
 - Prodi: D3 Manajemen Informatika
 - Politeknik Negeri Bali
@@ -13,15 +13,17 @@ A. Hasil Program
 
 Program menghitung nilai akhir dari tugas, UTS, dan UAS dengan bobot masing-masing 30%, 30%, dan 40%.
 
-Nama    Nilai Akhir    Huruf      Status
-Andi        81           B         Lulus
-Bunga      87,7          A         Lulus
-Citra      51,5          D      Tidak Lulus
-Dimas      72,5          B         Lulus
-Eka         35           E      Tidak Lulus
-
-- Rata-rata kelas: 65,54
-- Jumlah mahasiswa lulus: 3 orang
+=== TABEL REKAPITULASI NILAI MAHASISWA ===
+Nama       | Nilai Akhir | Nilai Huruf | Keterangan
+-------------------------------------------------------
+Andi       | 81.00       | B           | Lulus
+Bunga      | 87.70       | A           | Lulus
+Citra      | 51.50       | D           | Tidak Lulus
+Dimas      | 72.50       | B           | Lulus
+Eka        | 35.00       | E           | Tidak Lulus
+-------------------------------------------------------
+Rata-rata nilai akhir kelas : 65.54
+Banyaknya mahasiswa yang lulus : 3
 
 B. Desain Fungsi
 
@@ -59,14 +61,39 @@ A. Hasil Program
 
 Program menghitung ongkir berdasarkan berat, jarak, dan status anggota. Pelanggan yang menjadi anggota mendapatkan diskon 10%.
 
-Nama| Biaya Berat | Biaya Jarak |   Diskon  | Total
-Rina|   Rp10.000  |     Rp0     |    Rp0    | Rp10.000
-Sari|   Rp22.000  |   Rp5.000   |    Rp0    | Rp27.000
-Tono|   Rp22.000  |   Rp5.000   |  Rp2.700  | Rp24.300
-Umar|   Rp10.000  |   Rp5.000   |  Rp1.500  | Rp13.500
-Vina|   Rp34.000  |     Rp0     |    Rp0    | Rp34.000
-
-Total pendapatan: Rp108.800
+=== STRUK PENGIRIMAN TOKO DARING ===
+-----------------------------------
+Pelanggan    : Rina
+Biaya Berat  : Rp10,000
+Biaya Jarak  : Rp0
+Potongan     : Rp0
+Ongkir Akhir : Rp10,000
+-----------------------------------
+Pelanggan    : Sari
+Biaya Berat  : Rp22,000
+Biaya Jarak  : Rp5,000
+Potongan     : Rp0
+Ongkir Akhir : Rp27,000
+-----------------------------------
+Pelanggan    : Tono
+Biaya Berat  : Rp22,000
+Biaya Jarak  : Rp5,000
+Potongan     : Rp2,700
+Ongkir Akhir : Rp24,300
+-----------------------------------
+Pelanggan    : Umar
+Biaya Berat  : Rp10,000
+Biaya Jarak  : Rp5,000
+Potongan     : Rp1,500
+Ongkir Akhir : Rp13,500
+-----------------------------------
+Pelanggan    : Vina
+Biaya Berat  : Rp34,000
+Biaya Jarak  : Rp0
+Potongan     : Rp0
+Ongkir Akhir : Rp34,000
+-----------------------------------
+TOTAL PENDAPATAN ONGKOS KIRIM HARI INI: Rp108,800
 
 B. Desain Fungsi
 
